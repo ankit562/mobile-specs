@@ -5,6 +5,7 @@ import FeaturedSection from './components/FeaturedSection';
 import { phones } from './data/phones';
 import './App.css';
 
+
 function App() {
   const [filters, setFilters] = useState({
     minPrice: 0,
